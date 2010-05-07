@@ -33,7 +33,6 @@ cd build
 	-DSYSCONF_INSTALL_DIR=%{_sysconfdir} \
 	../
 %{__make}
-cd ../
 
 %install
 rm -rf $RPM_BUILD_ROOT
