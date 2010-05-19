@@ -12,7 +12,12 @@ Group:		X11/Development/Tools
 Source0:	http://team.pld-linux.org/~vip/%{orgname}-svn-%{svnrev}.tar.bz2
 # Source0-md5:	1d791e9684c45738a011bed518f48ca2
 URL:		http://www.kdevelop.org/
+BuildRequires:	automoc4
+BuildRequires:	kde4-kdelibs-devel
 BuildRequires:	kde4-kdevplatform-devel >= 0.9.97
+BuildRequires:	libstdc++-devel
+BuildRequires:	qt4-build
+BuildRequires:	qt4-qmake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
